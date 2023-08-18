@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REVISÃO</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listas">
+            <h2>Listas</h2>
+
+            <h3>Rainhas do meme</h3>
+
+            <ol>
+                <li>Virginia e zé felipe</li>
+                <li>Ana castela</li>
+                <li>Paula Fernandes</li>
+                <li>Melody</li>
+                <li>leandrinha</li>
+            </ol>
+
+            <h3>Produtos Virginia</h3>
+
+            <ul>
+                <li>Perfume</li>
+                <li>Base</li>
+                <li>gloss</li>
+                <li>rimel</li>
+            </ul>
+        </section>
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Valor</th>
+                        <th>data</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>R$17.50</td>
+                        <td>15/03</td>
+                        <td>Almoço</td>
+                    </tr>
+                    <tr>
+                        <td>R$67.99</td>
+                        <td>31/07</td>
+                        <td>Passeio</td>
+                    </tr>
+                    <tr>
+                        <td>R$23.87</td>
+                        <td>08/08</td>
+                        <td>Starbucks</td>
+                    </tr>
+                    <tr>
+                        <td>R$100</td>
+                        <td>12/05</td>
+                        <td>Bilhete único</td>
+                    </tr>
+                    <tr>
+                        <td>R$43.75</td>
+                        <td>27/09</td>
+                        <td>Meias</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="formularios">
+            <h2>Formulários</h2>
+
+            <form action="">
+                <fieldset>
+                    <legend>Cadastro de despesas</legend>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input id="nome" type="text">
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input id="sobrenome" type="text">
+                    </div>
+                    <div>
+                        <label for="tipodespesa">Tipo de despesa:</label>
+                        <select name="Tipo de despesa" id="tipodespesa">
+                            <option disabled selected value="selecione">Selecione...</option>
+                            <option value="passeio">Passeio</option>
+                            <option value="lanche">Lanche</option>
+                            <option value="almoco">Almoço</option>
+                            <option value="streaming">streaming</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="data">Data:</label>
+                        <input id="data" type="date">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div>
+                        <label for="recibo">Receber recibo</label>
+                        <input type="checkbox" name="recibo" id="recibo">
+                    </div>
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
